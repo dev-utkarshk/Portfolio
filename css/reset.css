@@ -1,0 +1,84 @@
+/* ==========================================================================
+   MODERN CSS RESET
+   Ensures consistent baseline styling and box-sizing across all browsers.
+   ========================================================================== */
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Enable smooth scrolling on the whole document */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* 3. Base body setup */
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 4. Media elements responsive baseline */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 5. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* 6. Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 7. Remove default button styles */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 8. Clean text link defaults */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 9. Balance headings for natural text wrapping */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  text-wrap: balance;
+  line-height: 1.25;
+}
+
+p {
+  overflow-wrap: break-word;
+}

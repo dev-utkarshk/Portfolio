@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Utkarsh Kumar - B.Tech Computer Science & Engineering student at M.M. Engineering College, Mullana. Exploring software development, web development, and AI.">
+  <meta name="keywords" content="Utkarsh Kumar, Portfolio, Computer Science, Software Development, Web Development, AI, Student Developer">
+  <meta name="author" content="Utkarsh Kumar">
+  
+  <title>Utkarsh Kumar | Student Developer &amp; Tech Enthusiast</title>
+
+  <!-- Google Fonts for Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets (CSS Reset + Main Stylesheet) -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- =========================================================
+       1. NAVIGATION / HEADER
+       ========================================================= -->
+  <header class="site-header" id="header">
+    <nav class="nav-container" aria-label="Primary Navigation">
+      <!-- Brand Logo / Name -->
+      <a href="#hero" class="nav-logo" aria-label="Home">
+        <span class="logo-code">&lt;</span>Utkarsh<span class="logo-accent">.dev</span><span class="logo-code">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#experience" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Header Action Buttons (Theme Switcher & Mobile Menu Toggle) -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" type="button" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <!-- Sun Icon (shown in dark mode) -->
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (shown in light mode) -->
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Navigation Menu Toggle Button -->
+        <button id="menu-toggle" class="btn-icon menu-toggle-btn" type="button" aria-label="Open mobile navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <svg class="icon-menu" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- =========================================================
+       MAIN CONTENT WRAPPER
+       ========================================================= -->
+  <main id="main-content">
+    
+    <!-- =======================================================
+         2. HERO SECTION
+         ======================================================= -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <!-- Status Badge -->
+          <div class="hero-status-badge">
+            <span class="status-indicator"></span>
+            <span>2nd Sem B.Tech CSE • M.M. Engineering College</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-highlight">Utkarsh Kumar</span>.
+          </h1>
+
+          <p class="hero-subtitle">
+            B.Tech CSE Student | Developer | Building, Learning &amp; Exploring Technology
+          </p>
+
+          <p class="hero-description">
+            Passionate about software development, web development, and AI-assisted development. Currently in my 2nd semester, building practical projects and strengthening my foundation in computer science.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Quick Social Links in Hero -->
+          <div class="hero-socials">
+            <span class="socials-label">Connect:</span>
+            <a href="https://github.com/dev-utkarshk" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/utkarshkumarin/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="mailto:Utkarshkumar.mmec@gmail.com" class="social-link" aria-label="Send Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Card / Visual Preview -->
+        <div class="hero-visual">
+          <div class="terminal-card" aria-hidden="true">
+            <div class="terminal-header">
+              <span class="terminal-dot dot-red"></span>
+              <span class="terminal-dot dot-yellow"></span>
+              <span class="terminal-dot dot-green"></span>
+              <span class="terminal-title">developer@portfolio: ~</span>
+            </div>
+            <div class="terminal-body">
+              <p class="terminal-line"><span class="prompt">$</span> whoami</p>
+              <p class="terminal-output">Utkarsh Kumar — Student Developer</p>
+              <p class="terminal-line"><span class="prompt">$</span> college</p>
+              <p class="terminal-output">M.M. Engineering College, Mullana (Ambala)</p>
+              <p class="terminal-line"><span class="prompt">$</span> current_focus</p>
+              <p class="terminal-output">["Data Structures &amp; Algorithms", "Web Development", "Python", "AI-assisted dev", "Building projects"]</p>
+              <p class="terminal-line"><span class="prompt">$</span> status</p>
+              <p class="terminal-output text-success">Learning, building &amp; exploring</p>
+              <p class="terminal-line"><span class="prompt">$</span> <span class="terminal-cursor"></span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================
+         3. ABOUT ME SECTION
+         ======================================================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Background &amp; Journey</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </header>
+
+        <div class="about-grid">
+          <!-- Text Narrative -->
+          <div class="about-text">
+            <p class="paragraph">
+              I am an undergraduate student currently in my <strong>2nd semester of B.Tech in Computer Science &amp; Engineering</strong> at <strong>M.M. Engineering College, Mullana (Ambala)</strong>.
+            </p>
+            <p class="paragraph">
+              My focus is on understanding core computer science concepts, developing web applications, and experimenting with <em>AI-assisted development</em> workflows to build practical solutions.
+            </p>
+            <p class="paragraph">
+              I believe in learning by building. Through personal projects, continuous practice in problem solving, and hands-on coding, I aim to expand my technical abilities step by step.
+            </p>
+          </div>
+
+          <!-- Highlight Feature Cards -->
+          <div class="about-cards-grid">
+            <article class="info-card">
+              <div class="info-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              </div>
+              <h3 class="info-card-title">Education</h3>
+              <p class="info-card-text">B.Tech CSE (2nd Semester) • M.M. Engineering College (1st Sem SGPA: 7.67)</p>
+            </article>
+
+            <article class="info-card">
+              <div class="info-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="info-card-title">Core Interests</h3>
+              <p class="info-card-text">Software Development, Web Development &amp; AI-assisted workflows</p>
+            </article>
+
+            <article class="info-card">
+              <div class="info-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              </div>
+              <h3 class="info-card-title">Current Focus</h3>
+              <p class="info-card-text">Data Structures &amp; Algorithms, Python &amp; Frontend Development</p>
+            </article>
+
+            <article class="info-card">
+              <div class="info-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              </div>
+              <h3 class="info-card-title">Learning Mindset</h3>
+              <p class="info-card-text">Hands-on experimentation, clean coding &amp; continuous learning</p>
+            </article>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================
+         4. SKILLS SECTION
+         ======================================================= -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Technical Toolkit</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <div class="section-divider"></div>
+        </header>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Languages -->
+          <article class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3 class="category-title">Programming Languages</h3>
+            </div>
+            <ul class="skill-tags">
+              <li class="skill-badge">C</li>
+              <li class="skill-badge">Python</li>
+              <li class="skill-badge">Java</li>
+              <li class="skill-badge">JavaScript</li>
+            </ul>
+          </article>
+
+          <!-- Category 2: Web Development -->
+          <article class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+              <h3 class="category-title">Web Development</h3>
+            </div>
+            <ul class="skill-tags">
+              <li class="skill-badge">HTML5</li>
+              <li class="skill-badge">CSS3</li>
+              <li class="skill-badge">JavaScript</li>
+              <li class="skill-badge">DOM Manipulation</li>
+              <li class="skill-badge">Responsive Design</li>
+              <li class="skill-badge">REST APIs</li>
+            </ul>
+          </article>
+
+          <!-- Category 3: Tools & Methodologies -->
+          <article class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <h3 class="category-title">Tools &amp; Environment</h3>
+            </div>
+            <ul class="skill-tags">
+              <li class="skill-badge">Git</li>
+              <li class="skill-badge">GitHub</li>
+              <li class="skill-badge">VS Code</li>
+              <li class="skill-badge">Command Line</li>
+              <li class="skill-badge">AI / Vibe Coding Workflows</li>
+            </ul>
+          </article>
+
+          <!-- Category 4: Computer Science Fundamentals -->
+          <article class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </div>
+              <h3 class="category-title">CS Fundamentals</h3>
+            </div>
+            <ul class="skill-tags">
+              <li class="skill-badge">Data Structures &amp; Algorithms</li>
+              <li class="skill-badge">Object-Oriented Programming (OOP)</li>
+              <li class="skill-badge">DBMS</li>
+              <li class="skill-badge">SQL</li>
+              <li class="skill-badge">Computer Organization &amp; Architecture</li>
+            </ul>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================
+         5. PROJECTS SECTION
+         ======================================================= -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+        </header>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Personal Portfolio Website -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-tag">Web Project</span>
+              <span class="project-status">In Progress</span>
+            </div>
+            
+            <div class="project-content">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-description">
+                A responsive personal portfolio website built while learning AI-assisted/vibe coding. The project demonstrates semantic HTML, modern CSS, responsive design and vanilla JavaScript interactivity.
+              </p>
+              
+              <ul class="project-tech-stack" aria-label="Technologies used">
+                <li class="tech-item">HTML5</li>
+                <li class="tech-item">CSS3</li>
+                <li class="tech-item">JavaScript</li>
+                <li class="tech-item">Responsive Design</li>
+              </ul>
+            </div>
+
+            <footer class="project-footer">
+              <span class="project-link" style="opacity: 0.75; cursor: default;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                <span>Live Demo: Coming Soon</span>
+              </span>
+              <span class="project-link" style="opacity: 0.75; cursor: default;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                <span>Source Code: In Progress</span>
+              </span>
+            </footer>
+          </article>
+
+          <!-- Project 2: AI-Based Internship Recommendation Engine -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-tag">AI &amp; Web Concept</span>
+              <span class="project-status">In Progress</span>
+            </div>
+            
+            <div class="project-content">
+              <h3 class="project-title">AI-Based Internship Recommendation Engine for PM Internship Scheme</h3>
+              <p class="project-description">
+                An AI-assisted project concept developed around helping students discover and identify suitable internship opportunities based on their interests, skills and profile.
+              </p>
+              
+              <ul class="project-tech-stack" aria-label="Technologies used">
+                <li class="tech-item">Python</li>
+                <li class="tech-item">AI/ML</li>
+                <li class="tech-item">Web Technologies</li>
+              </ul>
+            </div>
+
+            <footer class="project-footer">
+              <span class="project-link" style="opacity: 0.75; cursor: default;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                <span>Source Code: Coming Soon</span>
+              </span>
+            </footer>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================
+         6. EDUCATION & TIMELINE SECTION
+         ======================================================= -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Academic &amp; Learning Path</span>
+          <h2 class="section-title">Education &amp; Milestones</h2>
+          <div class="section-divider"></div>
+        </header>
+
+        <div class="timeline">
+          
+          <!-- Milestone 1 -->
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-period">2025 – 2029 • Current (2nd Semester)</span>
+              <h3 class="timeline-title">B.Tech in Computer Science &amp; Engineering</h3>
+              <p class="timeline-institution">M.M. Engineering College, Mullana (Ambala) • 1st Sem SGPA: 7.67</p>
+              <p class="timeline-text">
+                Studying core disciplines including Data Structures &amp; Algorithms, Object-Oriented Programming, Computer Organization &amp; Architecture, and programming in C and Python.
+              </p>
+            </div>
+          </article>
+
+          <!-- Milestone 2 -->
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-period">Ongoing</span>
+              <h3 class="timeline-title">Self-Directed Learning &amp; Project Development</h3>
+              <p class="timeline-institution">Continuous Skill Building</p>
+              <p class="timeline-text">
+                Actively learning modern frontend architecture, JavaScript fundamentals, AI-assisted development workflows, and building practical projects.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================
+         7. CONTACT SECTION
+         ======================================================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-divider"></div>
+        </header>
+
+        <div class="contact-card">
+          <div class="contact-header">
+            <h3 class="contact-title">Open to discussions, learning opportunities, and collaborations!</h3>
+            <p class="contact-desc">
+              Feel free to reach out directly via email or connect with me on GitHub and LinkedIn.
+            </p>
+          </div>
+
+          <!-- Contact Options -->
+          <div class="contact-methods">
+            <a href="mailto:Utkarshkumar.mmec@gmail.com" class="contact-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>Utkarshkumar.mmec@gmail.com</span>
+            </a>
+          </div>
+
+          <!-- Social Links Grid -->
+          <div class="social-links-grid">
+            <a href="https://github.com/dev-utkarshk" target="_blank" rel="noopener noreferrer" class="social-badge" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/utkarshkumarin/" target="_blank" rel="noopener noreferrer" class="social-badge" aria-label="LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       8. FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-text">
+        Learning, building &amp; exploring technology • &copy; 2026 Utkarsh Kumar.
+      </p>
+      <a href="#hero" class="back-to-top" aria-label="Back to top">
+        <span>Back to top</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
