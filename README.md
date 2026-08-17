@@ -1,5 +1,8 @@
 # Utkarsh Kumar — Personal Developer Portfolio
 
+🌐 **Live Website**: [https://dev-utkarshk.github.io/Portfolio/](https://dev-utkarshk.github.io/Portfolio/)  
+📦 **GitHub Repository**: [https://github.com/dev-utkarshk/Portfolio](https://github.com/dev-utkarshk/Portfolio)
+
 A modern, minimal, and responsive personal portfolio website built with **Semantic HTML5**, **Vanilla CSS3**, and **Vanilla JavaScript**. 
 
 Designed to present an authentic developer profile for a B.Tech Computer Science & Engineering student actively learning, building, and exploring software engineering and AI-assisted development.
